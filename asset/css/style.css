@@ -42,7 +42,7 @@ html{
     padding-top: 10px;
     transition: 0.5s ease;
     border-bottom: 1px solid black;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 .dp_content a:hover{
     background-color: green;
@@ -53,7 +53,7 @@ html{
     display: block;
 }
 #sp{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 /* end of drop-down */
 body{
