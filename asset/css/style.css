@@ -13,6 +13,10 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+/* drop down */
+.drop-down{
+    display: none;
+}
 body{
     overflow-x: hidden;
 }
