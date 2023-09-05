@@ -14,9 +14,44 @@ html{
     scroll-behavior: smooth;
 }
 /* drop down */
-.dp-content a{
-    display: none;
+.drop_down{
+    position:relative;
+    display: inline-block;
+    transition: 0.5s ease;
 }
+.drop_down:hover{
+    letter-spacing: 0.1px;
+    background-color:green;
+}
+.dp_content{
+    display: none;
+    background-color:aliceblue;
+    position: absolute;
+    min-width: 160px;
+    z-index: 3;
+    transition: 0.5s ease;
+}
+.dp_content:hover{
+    background-color: white;
+}
+.dp_content a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+    padding-top: 10px;
+    transition: 0.5s ease;
+    border-bottom: 1px solid black;
+}
+.dp_content a:hover{
+    background-color: green;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.drop_down:hover .dp_content{
+    display: block;
+}
+/* end of drop-down */
 body{
     overflow-x: hidden;
 }
