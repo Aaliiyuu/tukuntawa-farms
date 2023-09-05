@@ -42,6 +42,7 @@ html{
     padding-top: 10px;
     transition: 0.5s ease;
     border-bottom: 1px solid black;
+    font-size: 2rem;
 }
 .dp_content a:hover{
     background-color: green;
@@ -50,6 +51,9 @@ html{
 }
 .drop_down:hover .dp_content{
     display: block;
+}
+#sp{
+    font-size: 2rem;
 }
 /* end of drop-down */
 body{
