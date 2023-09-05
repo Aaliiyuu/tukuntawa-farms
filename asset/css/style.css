@@ -14,7 +14,7 @@ html{
     scroll-behavior: smooth;
 }
 /* drop down */
-.drop-down{
+.dp-content{
     display: none;
 }
 body{
