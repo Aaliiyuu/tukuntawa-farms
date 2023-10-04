@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./asset/pics/Tk_farms_logo.jpg">
     <!-- magnific css link -->
+    <link rel="stylesheet" href="./asset/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" type="text/css" href="./asset/css/bootstrap.min.css">
+    <link rel="icon" href="./asset/pics/Tk_farms_logo.jpg">
     <link rel="styledheet" href="https://cdnjs.cloudflare.com/ajax/lib/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./asset/css/style.css">
     <title>Tukuntawa Farms</title>
@@ -15,33 +16,44 @@
 <body>
     <!-- header section start -->
     <header class="header fixed-top">
-        <a href="#" class="logo"><img src="asset/pics/Tk_farms_logo.jpg" alt="" style="width: 70PX; height: 45px ; border-radius: 1rem;"></a>
-       <h3 class="text">TUKUNTAWAa <span>FARMS</span></h3>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <div class="drop_down">
-                    <span id="">services</span>
-                    <div class="dp_content">
-                        <a href="">preparetion</a>
-                        <a href="">production</a>
-                        <a href="">processing</a>
-                        <a href="">consumption</a>
+        <div class="logo-section">
+            <a href="#" class="logo"><img src="./asset/pics/Tk_farms_logo.jpg" alt="" style="width: 70PX; height: 45px ; border-radius: 1rem;"></a>
+            <h3 class="text"><span class="texts">TUKUNTAWA </span><span  class="spn">FARMS</span></h3>
+        </div>
+       
+        <nav class="my-dp" id="s ">
+            <div>
+                <span  class="dp"><a href="index.html">Home</a></span>
+            </div>
+            <div class="dp">
+                <span class="dp-top">About</span>
+                <div class="dp-content">
+                    <a href="about.html" target="_blank">vision and mission</a>
+                    <a href="about.html"  target="_blank">Administratives and members</a>
+                    <a href="about.html" target="_blank">Location</a>
+                </div>
+            </div>
+            <div class="dp">
+                <span class="dp-top">Services</span>
+                <div class="dp-content">
+                    <a href="preparetion.html" target="_blank">Preparetion</a>
+                    <a href="production.html"  target="_blank">Production</a>
+                    <a href="processing.html" target="_blank">Processing</a>
+                    <a href="consumption.html" target="_blank">Consumption</a>
+                </div>
+            </div>
+                <span class="dp"><a href="#blog">Blogs</a></span>
+
+                <div class="dp">
+                    <span class="dp-top">Contact us</span>
+                    <div class="dp-content left">
+                        <a href="preparetion.html" target="_blank"></a>
+                        <a href="preparetion.html"  target="_blank">Production</a>
+                        <a href="preparetion.html" target="_blank">Preparetion</a>
                     </div>
                 </div>
-                <li><a href="#blog">Blogs</a></li>
-                <div class="drop_down">
-                    <span id="">About us</span>
-                    <div class="dp_content">
-                        <a href="#">Vision & mission</a>
-                        <a href="#">Administration & members</a>
-                        <a href="#">location</a>
-                    </div>
-                </div>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </nav> 
-        <div class="fa-bars"><button type="btn">x</button></div>
+        <button style="font-size:25px; border: none;" class="botton" >&#9776;</button>
     </header>
     <!--header section end -->
 
@@ -55,20 +67,20 @@
        </div>
        <div class="counting">
            <div class="box">
-               <h1 class="count" data-count="1200">1200+</h1>
+               <h2 class="count" data-count="1200">1200+</h2>
                <h3>working Hours</h3>
            </div>
            <div class="box">
-                <h1 class="count" data-count="15">15+</h1>
+                <h2 class="count" data-count="15">15+</h2>
                 <h3>Farming Rate</h3>
             </div>
             <div class="box">
-                <h1 class="count" data-count="1000">1000+</h1>
-                <h3>workers</h3>
+                <h2 class="count" data-count="1000">1000+</h2>
+                <h3 class="right">workers</h3>
             </div>
             <div class="box">
-               <h1 class="count" data-count="23000">23000+</h1>
-               <h3>customers</h3>
+               <h2 class="count" data-count="23000">23000+</h2>
+               <h3 class="right">customers</h3>
            </div>
        </div>
    </section>      
@@ -76,43 +88,51 @@
         
     <!-- service section start -->
     <section id="service" class="service">
-        <h1 class="heading">Our Services</h1>
+        <h2 class="heading right">Our Services</h2>
         <div class="box-container">
             <div class="box">
                 <a href="asset/pics/Rice_1.jpg" title="Rice planting">
                     <img src="asset/pics/Rice_1.jpg" alt="">
                 </a>
-                <h3 style="color: rgb(22, 19, 19);">Rice planting</h3>
+                <div class="box-child-header" style="color: rgb(22, 19, 19);">Preparetion</div>
+                <hr style="color: green; border: solid 2px;">
+                <div class="box-contents">
+                    we provide for a farmer all what needed to to prepare for farming such as labourers to clear his land,
+                    getting a right place to farm, looking for trust worthy folk to take care of his farm, interest free loan, sourcing machinary,
+                    guidince from experts and many more. click the button below to to get full details about our preparetion services
+                </div>
+                <hr style="color: green;">
+                <button type="button" value="click" class="click"><a href="">click</a></button>
             </div>
             
             <div class="box">
                 <a href="asset/pics/Maixe_5.jpg" title="Maize Planting">
                     <img src="asset/pics/Maixe_5.jpg" alt="">
                 </a>
+                <div class="box-child-header" style="color: rgb(22, 19, 19);">Production</div>
+                <div class="box-contents">
+                    
+                </div>
             </div>
 
             <div class="box">
                 <a href="asset/pics/Vegetables.jpg" title="Vegetables Planting">
                     <img src="asset/pics/Vegetables.jpg" alt="">
                 </a>
+                <div class="box-child-header" style="color: rgb(22, 19, 19);">Processing</div>
+                <div class="box-contents">
+                    
+                </div>
             </div>
 
             <div class="box">
                 <a href="asset/pics/Land4.jpg" title="All Kind of Crops">
                     <img src="asset/pics/Land4.jpg" alt="">
                 </a>
-            </div>
-
-            <div class="box">
-                <a href="asset/pics/Hen_2.jpg" title="poultry Farming">
-                    <img src="asset/pics/Hen_2.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="box">
-                <a href="asset/pics/Fish.jpg" title="Fish Farming">
-                    <img src="asset/pics/Fish.jpg" alt="">
-                </a>
+                <div class="box-child-header" style="color: rgb(22, 19, 19);">Consumption</div>
+                <div class="box-contents">
+                    
+                </div>
             </div>
         </div>
     </section>
@@ -329,6 +349,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- magnific popuu link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="./asset/js/main.js"></script>
+    <script src="./asset/js/main.js">
+    </script>
 </body>
 </html> 
